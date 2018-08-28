@@ -3,10 +3,24 @@
 
 inspired by [Icon Transition Generator](https://blog.nucleoapp.com/create-2-state-svg-powered-animated-icons-76ed19160a7e)
 
+## Quick start
+Currently it's necessary to have a webpack setup with [`vue-loader`](https://github.com/vuejs/vue-loader)
+
+```cmd
+npm install --save vue-svg-transition
+```
+```js
+import Vue from 'vue';
+import SvgTransition from 'vue-svg-transition';
+
+Vue.use(SvgTransition);
+```
+
 ## Demo
 Soon
 ## Template Example
-It is recommended to use [`vue-svg-loader`](https://www.npmjs.com/package/vue-svg-loader).
+It is recommended to use [`vue-svg-loader`](https://www.npmjs.com/package/vue-svg-loader) so we can import our SVGs from external files.
+But it's possible to use inline SVG as well.
 
 ```html
 <template>
@@ -37,22 +51,11 @@ export default {
 </script>
 ```
 
-## Quick start
-```cmd
-npm install --save vue-svg-transition
-```
-```js
-import Vue from 'vue';
-import SvgTransition from 'vue-svg-transition';
-
-Vue.use(SvgTransition);
-```
-
 ## Documentation
 ### Props
 **size**
 
-The size of the svg viewbox.
+The size of the SVG viewbox.
 - type: `Object`
 - default: `{ width: 32, height: 32 }`
 
