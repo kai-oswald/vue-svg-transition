@@ -1,8 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
+import component from './SvgTransition.vue'
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App)
-}).$mount('#app')
+const SvgTransition = {
+  install: function(Vue) {
+    Vue.component("svg-transition", component);
+  },
+  component
+};
+export default SvgTransition;
