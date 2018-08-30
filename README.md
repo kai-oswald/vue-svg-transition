@@ -19,8 +19,6 @@ import SvgTransition from 'vue-svg-transition';
 Vue.use(SvgTransition);
 ```
 
-## Demo
-Soon
 ## Template Example
 It is recommended to use [`vue-svg-loader`](https://www.npmjs.com/package/vue-svg-loader) so we can import our SVGs from external files.
 But it's possible to use inline SVG as well.
