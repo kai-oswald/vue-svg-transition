@@ -25,14 +25,6 @@ export default {
     duration: {
       type: Number,
       default: 200
-    },
-    icon1: {
-      type: String,
-      default: ""
-    },
-    icon2: {
-      type: String,
-      default: ""
     }
   },
   data() {
@@ -96,8 +88,8 @@ export default {
   }
 };
 
- function ncEaseInOutQuart(t, b, c, d) {
-      if ( 1 > (t/=d/2)) return c/2*t*t*t*t + b;
-      return -c/2 * ((t-=2)*t*t*t - 2) + b;
-  }
+function ncEaseInOutQuart(t, b, c, d) {
+    if ( 1 > (t/=d/2)) return c/2*t*t*t*t + b;
+    return -c/2 * ((t-=2)*t*t*t - 2) + b;
+}
 </script>
