@@ -1,3 +1,5 @@
+![npm version badge](https://img.shields.io/npm/v/vue-svg-transition.svg)
+
 # vue-svg-transition
 > Create 2-state, SVG-powered animated icons
 
