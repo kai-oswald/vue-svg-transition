@@ -52,6 +52,27 @@ export default {
 </script>
 ```
 
+Trigger programmatically via `ref`
+
+```vue
+<svg-transition ref="transition" trigger="none">
+<!-- your icons -->
+</svg-transition>
+
+<script>
+export default {
+    data() {
+        return {
+            transition: null
+        }
+    },
+    mounted() {
+        this.$refs.transition.performTransition();
+    }
+}
+</script>
+```
+
 ## Documentation
 ### Props
 **size**
@@ -66,6 +87,12 @@ The duration of the transition in ms
 - type: `Number` 
 - default: `200`
 
+
+**trigger**
+
+The action that triggers the transition. Can be `click`, `hover` or `none` (if you want to trigger it programmatically).
+- type: `String`
+- default: `click`
 ### Slots
 **initial**
 
