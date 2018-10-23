@@ -1,11 +1,11 @@
-![npm version badge](https://img.shields.io/npm/v/vue-svg-transition.svg)
-
 # vue-svg-transition
 > Create 2-state, SVG-powered animated icons
 
 ![Demo](/assets/demo.gif)
 
 inspired by [Icon Transition Generator](https://blog.nucleoapp.com/create-2-state-svg-powered-animated-icons-76ed19160a7e)
+
+![npm version badge](https://img.shields.io/npm/v/vue-svg-transition.svg)
 
 ## Quick start
 
@@ -61,11 +61,6 @@ Trigger programmatically via `ref`
 
 <script>
 export default {
-    data() {
-        return {
-            transition: null
-        }
-    },
     mounted() {
         this.$refs.transition.performTransition();
     }
