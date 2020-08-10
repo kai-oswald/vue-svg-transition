@@ -7,7 +7,7 @@
 
 inspired by [Icon Transition Generator](https://blog.nucleoapp.com/create-2-state-svg-powered-animated-icons-76ed19160a7e)
 
-![npm version badge](https://img.shields.io/npm/v/vue-svg-transition.svg)
+[![npm version badge](https://img.shields.io/npm/v/vue-svg-transition.svg)](https://www.npmjs.com/package/vue-svg-transition)
 
 ## Quick start
 
