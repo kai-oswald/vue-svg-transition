@@ -38,6 +38,6 @@
     "vue-svg-loader": "^0.8.0",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.28.0",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.12"
   }
 }
